@@ -15,6 +15,10 @@ html {
     margin: auto;
 }
 
+fieldset {
+    width: 100%;
+}
+
 .ui-widget-content {
     display: -webkit-box;
     display: -ms-flexbox;
