@@ -1,3 +1,5 @@
+'use strict'
+
 $(function () {
   //  A target to recolor: a background or a text
   //  allows only "choose-bg-color" or "choose-text-color" (it's button's ids)
