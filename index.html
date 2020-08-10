@@ -3,8 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>RGB color picker slider</title>
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="widget">
+  <fieldset>
+    <legend>Select:</legend>
+    <div class="controlgroup">
+      <button id="choose-text-color" class="ui-button ui-widget ui-corner-all">color</button>
+      <button id="choose-bg-color" class="ui-button ui-widget ui-corner-all ui-state-active">backgroundColor</button>
+    </div>
+  </fieldset>
 
+  <div class="ui-widget-content">
+    <div id="red"></div>
+    <div id="green"></div>
+    <div id="blue"></div>
+    <div id="swatch" class="ui-widget-content ui-corner-all">
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="scripts.js"></script>
 </body>
 </html>
